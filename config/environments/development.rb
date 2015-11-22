@@ -25,6 +25,10 @@ Rails.application.configure do
   config.react.variant = :development
   config.react.addons = true
 
+  # config.sass.preferred_syntax = :scss
+  # config.sass.line_comments = false
+  # config.sass.cache = false
+
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
