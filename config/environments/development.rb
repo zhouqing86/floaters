@@ -22,9 +22,6 @@ Rails.application.configure do
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
 
-  config.react.variant = :development
-  config.react.addons = true
-
   # config.sass.preferred_syntax = :scss
   # config.sass.line_comments = false
   # config.sass.cache = false

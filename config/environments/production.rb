@@ -14,9 +14,6 @@ Rails.application.configure do
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
 
-  config.react.variant = :production
-  config.react.addons = true
-
   # config.sass.preferred_syntax = :scss
   # config.sass.line_comments = false
   # config.sass.cache = false
