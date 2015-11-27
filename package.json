@@ -1,6 +1,6 @@
 {
-  "name": "react-webpack-rails-tutorial",
-  "version": "1.1.1",
+  "name": "floaters",
+  "version": "0.0.1",
   "description": "Built using the react_on_rails generator. Allows you to run npm install from root.",
   "main": "server.js",
   "engines": {
@@ -9,11 +9,11 @@
   },
   "scripts": {
     "postinstall": "cd client && npm install",
-    "test": "rspec && (cd client && npm run lint)"
+    "test": "rspec && (cd client && npm run test)"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shakacode/react-webpack-rails-tutorial.git"
+    "url": "https://github.com/zhouqing86/floaters.git"
   },
   "keywords": [
     "react",
@@ -21,12 +21,12 @@
     "comment",
     "example"
   ],
-  "author": "justin808",
+  "author": "Wendll",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shakacode/react-webpack-rails-tutorial/issues"
+    "url": "https://github.com/zhouqing86/floaters/issues"
   },
-  "homepage": "https://github.com/shakacode/react-webpack-rails-tutorial",
+  "homepage": "https://github.com/zhouqing86/floaters",
   "dependencies": {
     "jquery": "^2.1.4"
   }
